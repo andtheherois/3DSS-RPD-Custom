@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="st_wpn_rpd_custom">
+		<text>RPD Custom</text>
+	</string>
+	<string id="st_wpn_rpd_custom_descr">
+		<text>A RPD machinegun customized by mechanics of The zone. The barrel has been chopped down to make it more manuverable in The Zone's urban environments. Threading has been added for a supressor and the belt cover has been modified for a picatinny rail mount, allowing it to accept scopes and optics. The rate of fire has also been increased. \n \n
+		%c[0,255,255,255]PROPERTIES:\n
+		%c[d_cyan] • %c[0,255,255,255] origin: %c[ui_gray_2]Soviet Union\n
+		%c[d_cyan] • %c[0,255,255,255] manufacturer: %c[ui_gray_2]Degtyaryov Plant\n
+		</text>
+	</string>
+	
+	<string id="st_mag_rpd_7.62x39_ext">
+		<text>Over-Filled 7.62x39 RPD Drum</text>
+	</string>
+	<string id="st_mag_rpd_7.62x39_ext_descr">
+		<text>
+			Drum magazine with a belt for the RPD. The box has been stuffed with a 125-round belt. While the RPD was ultimately supplanted by the more accurate and flexible RPK, being able to shoot off 125 rounds is nothing to scoff at. 
+		</text>
+	</string>
+	
+</string_table>	
