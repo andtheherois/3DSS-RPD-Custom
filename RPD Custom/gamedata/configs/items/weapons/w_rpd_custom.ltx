@@ -77,7 +77,7 @@
         ammo_mag_size               = 125
         startup_ammo                = 90
         
-	scopes 				                = acog, eot, specter, c-more, ac10632, e0t2, compm4s, rakurs, ekp8_18, mepro, march_f_shorty, monstrum, trihawk
+	scopes 				                = acog, eot, specter, c-more, ac10632, e0t2, compm4s, rakurs, ekp8_18, mepro, march_f_shorty, monstrum, trihawk, t12
 
         scope_status                = 0
         scope_zoom_factor           = 0
@@ -255,80 +255,51 @@ anm_reload_misfire_empty				 = rpd_hand_unjam_empty, rpd_unjam_charge_empty
 		
 ;=====================================================sights==================================================
 [wpn_rpd_custom_ac10632]:wpn_rpd_custom
+hud				= wpn_rpd_custom_ac10632_hud
 
-        visual                      = anomaly_weapons\wpn_rpd_custom\wpn_rpd_ac10632_world.ogf
-		
 1icon_layer			= ac10632
 1icon_layer_x			= 110
 1icon_layer_y			= -5
 
-
-
-hud				= wpn_rpd_custom_ac10632_hud
-
-
 [wpn_rpd_custom_ac10632_hud]:wpn_rpd_custom_hud
-
-        item_visual                 = anomaly_weapons\wpn_rpd_custom\wpn_rpd_ac10632_hud.ogf
-
-        aim_hud_offset_pos               = -0.0938, 0.019546, -0.105387
-        aim_hud_offset_pos_16x9          = -0.0938, 0.019546, -0.105387
-        aim_hud_offset_rot               = 0.005443, 0.009329, 0
-        aim_hud_offset_rot_16x9          = 0.005443, 0.009329, 0
+item_visual                 = anomaly_weapons\wpn_rpd_custom\wpn_rpd_ac10632_hud.ogf
+        aim_hud_offset_pos               = -0.095131, -0.003986, -0.078864
+        aim_hud_offset_pos_16x9          = -0.095131, -0.003986, -0.078864
+        aim_hud_offset_rot               = -0.006218, 0.004965, 0
+        aim_hud_offset_rot_16x9          = -0.006218, 0.004965, 0
 ;-------------------------------------------------------------------------------
 [wpn_rpd_custom_c-more]:wpn_rpd_custom
-
-        visual                      = anomaly_weapons\wpn_rpd_custom\wpn_rpd_c-more_world.ogf
-
 hud						= wpn_rpd_custom_c-more_hud
 
 1icon_layer			    = c-more
 1icon_layer_x			= 110
 1icon_layer_y			= -5
 
-
-
-use_alt_aim_hud                   = true
-
 [wpn_rpd_custom_c-more_hud]:wpn_rpd_custom_hud
-
 item_visual				= anomaly_weapons\wpn_rpd_custom\wpn_rpd_c-more_hud.ogf
-
-        aim_hud_offset_pos               = -0.089595, 0.024233, -0.105387
-        aim_hud_offset_pos_16x9          = -0.089595, 0.024233, -0.105387
-        aim_hud_offset_rot               = 0.0459, 0.001378, 0.002272
-        aim_hud_offset_rot_16x9          = 0.0459, 0.001378, 0.002272
+        aim_hud_offset_pos               = -0.09604, 0.008954, -0.078082
+        aim_hud_offset_pos_16x9          = -0.09604, 0.008954, -0.078082
+        aim_hud_offset_rot               = 0.018746, 0.006024, 0.002272
+        aim_hud_offset_rot_16x9          = 0.018746, 0.006024, 0.002272
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_rpd_custom_mepro]:wpn_rpd_custom
 
-        visual                      = anomaly_weapons\wpn_rpd_custom\wpn_rpd_mepro_world.ogf
-
 hud						= wpn_rpd_custom_mepro_hud
-
-
 
 1icon_layer			    = mepro
 1icon_layer_x			= 115
 1icon_layer_y			= -5
 
-use_alt_aim_hud                   = true
 
 [wpn_rpd_custom_mepro_hud]:wpn_rpd_custom_hud
-
 item_visual				= anomaly_weapons\wpn_rpd_custom\wpn_rpd_mepro_hud.ogf
-
-        aim_hud_offset_pos               = -0.095258, 0.006748, -0.105387
-        aim_hud_offset_pos_16x9          = -0.095258, 0.006748, -0.105387
+        aim_hud_offset_pos               = -0.095258, 0.006748, -0.062653
+        aim_hud_offset_pos_16x9          = -0.095258, 0.006748, -0.062653
         aim_hud_offset_rot               = 0.039615, 0.004944, 0.002272
         aim_hud_offset_rot_16x9          = 0.039615, 0.004944, 0.002272
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_rpd_custom_ekp8_18]:wpn_rpd_custom
-
-        visual                      = anomaly_weapons\wpn_rpd_custom\wpn_rpd_ekp8_18_world.ogf
-
 hud						= wpn_rpd_custom_ekp8_18_hud
-
-
 
 1icon_layer			    = ekp8_18
 1icon_layer_x			= 112
@@ -336,106 +307,87 @@ hud						= wpn_rpd_custom_ekp8_18_hud
 
 
 [wpn_rpd_custom_ekp8_18_hud]:wpn_rpd_custom_hud
-
 item_visual				= anomaly_weapons\wpn_rpd_custom\wpn_rpd_ekp8_18_hud.ogf
-
-        aim_hud_offset_pos               = -0.096327, -0.01079, -0.105387
-        aim_hud_offset_pos_16x9          = -0.096327, -0.01079, -0.105387
+        aim_hud_offset_pos               = -0.096327, -0.01079, -0.042951
+        aim_hud_offset_pos_16x9          = -0.096327, -0.01079, -0.042951
         aim_hud_offset_rot               = 0.002952, 0.009313, 0.002272
         aim_hud_offset_rot_16x9          = 0.002952, 0.009313, 0.002272
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_rpd_custom_e0t2]:wpn_rpd_custom
-
-        visual                      = anomaly_weapons\wpn_rpd_custom\wpn_rpd_e0t2_world.ogf
-
 hud						= wpn_rpd_custom_e0t2_hud
-
-
 
 1icon_layer			    = e0t2
 1icon_layer_x			= 110
 1icon_layer_y			= -9
 
-
-
 [wpn_rpd_custom_e0t2_hud]:wpn_rpd_custom_hud
-
 item_visual				= anomaly_weapons\wpn_rpd_custom\wpn_rpd_e0t2_hud.ogf
-
-        aim_hud_offset_pos               = -0.09685, -0.002763, -0.105387
-        aim_hud_offset_pos_16x9          = -0.09685, -0.002763, -0.105387
+        aim_hud_offset_pos               = -0.09685, -0.002763, -0.045227
+        aim_hud_offset_pos_16x9          = -0.09685, -0.002763, -0.045227
         aim_hud_offset_rot               = 0.004329, 0.009572, 0.002272
         aim_hud_offset_rot_16x9          = 0.004329, 0.009572, 0.002272
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_rpd_custom_eot]:wpn_rpd_custom
-
-        visual                      = anomaly_weapons\wpn_rpd_custom\wpn_rpd_eot_world.ogf
-
 hud						= wpn_rpd_custom_eot_hud
-
-
 
 1icon_layer			    = eot
 1icon_layer_x			= 110
 1icon_layer_y			= -7
 
-
-
 [wpn_rpd_custom_eot_hud]:wpn_rpd_custom_hud
-
 item_visual				= anomaly_weapons\wpn_rpd_custom\wpn_rpd_eot_hud.ogf
-
-        aim_hud_offset_pos               = -0.097015, -0.006982, -0.105387
-        aim_hud_offset_pos_16x9          = -0.097015, -0.006982, -0.105387
+        aim_hud_offset_pos               = -0.097015, -0.006982, -0.041102
+        aim_hud_offset_pos_16x9          = -0.097015, -0.006982, -0.041102
         aim_hud_offset_rot               = 0.004722, 0.009393, 0.002272
         aim_hud_offset_rot_16x9          = 0.004722, 0.009393, 0.002272
 ;-------------------------------------------------------------------------------------------------------------------------------
 [wpn_rpd_custom_compm4s]:wpn_rpd_custom
-
 hud					= wpn_rpd_custom_compm4s_hud
-
-        visual                      = anomaly_weapons\wpn_rpd_custom\wpn_rpd_compm4s_world.ogf
 
 1icon_layer                              = compm4s
 1icon_layer_x                            = 115
 1icon_layer_y                            = -11
 
-
-
 [wpn_rpd_custom_compm4s_hud]:wpn_rpd_custom_hud
-
 item_visual				= anomaly_weapons\wpn_rpd_custom\wpn_rpd_compm4s_hud.ogf
-
-        aim_hud_offset_pos               = -0.09546, 0.000125, -0.105387
-        aim_hud_offset_pos_16x9          = -0.09546, 0.000125, -0.105387
+        aim_hud_offset_pos               = -0.096149, 5.4e-05, -0.059099
+        aim_hud_offset_pos_16x9          = -0.096149, 5.4e-05, -0.059099
         aim_hud_offset_rot               = 0.006793, 0.007791, 0.002272
         aim_hud_offset_rot_16x9          = 0.006793, 0.007791, 0.002272
 ;--------------------------------------------------------------------------------------------
 [wpn_rpd_custom_rakurs]:wpn_rpd_custom
-
 hud					= wpn_rpd_custom_rakurs_hud
-
-        visual                      = anomaly_weapons\wpn_rpd_custom\wpn_rpd_rakurs_world.ogf
 
 1icon_layer                              = rakurs
 1icon_layer_x                            = 112
 1icon_layer_y                            = -9
 
-
-
 [wpn_rpd_custom_rakurs_hud]:wpn_rpd_custom_hud
-
 item_visual				= anomaly_weapons\wpn_rpd_custom\wpn_rpd_rakurs_hud.ogf
+        aim_hud_offset_pos               = -0.095758, 0.009645, -0.080995
+        aim_hud_offset_pos_16x9          = -0.095758, 0.009645, -0.080995
+        aim_hud_offset_rot               = 0.004608, 0.007314, 0.002272
+        aim_hud_offset_rot_16x9          = 0.004608, 0.007314, 0.002272
+		
+;---------------------------------------------------------------------------------		
+[wpn_rpd_custom_t12]:wpn_rpd_custom
+hud						= wpn_rpd_custom_t12_hud
 
-        aim_hud_offset_pos               = -0.0963, 0.009929, -0.105387
-        aim_hud_offset_pos_16x9          = -0.0963, 0.009929, -0.105387
-        aim_hud_offset_rot               = 0.00688, 0.009552, 0.002272
-        aim_hud_offset_rot_16x9          = 0.00688, 0.009552, 0.002272
+1icon_layer			    = t12
+1icon_layer_x			= 110
+1icon_layer_y			= -9
+
+	s3ds_reticle_size 	= 1.75
+	
+[wpn_rpd_custom_t12_hud]:wpn_rpd_custom_hud
+item_visual				= anomaly_weapons\wpn_rpd_custom\wpn_rpd_t12_hud.ogf
+        aim_hud_offset_pos               = -0.095262, 0.013643, -0.088955
+        aim_hud_offset_pos_16x9          = -0.095262, 0.013643, -0.088955
+        aim_hud_offset_rot               = 0.014844, 0.005544, 0.002272
+        aim_hud_offset_rot_16x9          = 0.014844, 0.005544, 0.002272
+		
 ;-----------------------------------------------------------------------------------------------------
 [wpn_rpd_custom_specter]:wpn_rpd_custom
-
-        visual                      = anomaly_weapons\wpn_rpd_custom\wpn_rpd_specter_world.ogf
-
 hud					= wpn_rpd_custom_specter_hud
 
 1icon_layer                              = specter
@@ -443,114 +395,78 @@ hud					= wpn_rpd_custom_specter_hud
 1icon_layer_y                            = -10
 
 scope_status                                       = 1
-scope_texture                                      = 
 scope_zoom_factor                                  = 30
 zoom_rotate_time                                   = 0.25
 scope_dynamic_zoom                                 = on
 
 [wpn_rpd_custom_specter_hud]:wpn_rpd_custom_hud
-
 item_visual				= anomaly_weapons\wpn_rpd_custom\wpn_rpd_specter_hud.ogf
 
-        aim_hud_offset_pos               = -0.095496, -0.002089, -0.168237
-        aim_hud_offset_pos_16x9          = -0.095496, -0.002089, -0.168237
-        aim_hud_offset_rot               = 0.011607, 0.005799, 0.002272
-        aim_hud_offset_rot_16x9          = 0.011607, 0.005799, 0.002272
+        aim_hud_offset_pos               = -0.095496, -0.002089, -0.162977
+        aim_hud_offset_pos_16x9          = -0.095496, -0.002089, -0.162977
+        aim_hud_offset_rot               = 0.011427, 0.00589, 0.002272
+        aim_hud_offset_rot_16x9          = 0.011427, 0.00589, 0.002272
 ;---------------------------------------------------------------------------------
 [wpn_rpd_custom_acog]:wpn_rpd_custom
-
-
-        visual                      = anomaly_weapons\wpn_rpd_custom\wpn_rpd_acog_world.ogf
+hud					                               = wpn_rpd_custom_acog_hud
 
 1icon_layer                                        = acog
 1icon_layer_x                                      = 105
 1icon_layer_y                                      = -6
 
-
 scope_status                                       = 1
-scope_texture                                      = 
 scope_zoom_factor                                  = 42.86
 zoom_rotate_time                                   = 0.25
-
-hud					                               = wpn_rpd_custom_acog_hud
 
 [wpn_rpd_custom_acog_hud]:wpn_rpd_custom_hud
 
 item_visual				= anomaly_weapons\wpn_rpd_custom\wpn_rpd_acog_hud.ogf
 
-        aim_hud_offset_pos               = -0.095714, 0.001995, -0.187941
-        aim_hud_offset_pos_16x9          = -0.095714, 0.001995, -0.187941
-        aim_hud_offset_rot               = 0.017014, 0.006156, 0.002272
-        aim_hud_offset_rot_16x9          = 0.017014, 0.006156, 0.002272
+        aim_hud_offset_pos               = -0.095714, 0.001995, -0.182329
+        aim_hud_offset_pos_16x9          = -0.095714, 0.001995, -0.182329
+        aim_hud_offset_rot               = 0.017211, 0.005974, 0.002272
+        aim_hud_offset_rot_16x9          = 0.017211, 0.005974, 0.002272
 ;-------------------------------------------------------------------------------
-[wpn_rpd_custom_leupold]:wpn_rpd_custom_march_f_shorty
-
-        visual                      = anomaly_weapons\wpn_rpd_custom\wpn_rpd_leupold_world.ogf
-
-
-hud					= wpn_rpd_custom_leupold_hud
-
-1icon_layer                              = leupold
-1icon_layer_x                            = 64
-1icon_layer_y                            = -4
-
-
-scope_status                                       = 1
-scope_texture                                      = wpn_crosshair_leupold_rmr
-scope_zoom_factor                                  = 7
-zoom_rotate_time                                   = 0.25
-scope_dynamic_zoom                                 = on
-
-[wpn_rpd_custom_leupold_hud]:wpn_rpd_custom_hud
-
-item_visual				= anomaly_weapons\wpn_rpd_custom\wpn_rpd_leupold_hud.ogf
-
-;-------------------------------------------------------------------------------------------		
 [wpn_rpd_custom_march_f_shorty]:wpn_rpd_custom
+hud                                      = wpn_rpd_custom_march_f_shorty_hud
 
 1icon_layer                              = march_f_shorty
-hud                                      = wpn_rpd_custom_march_f_shorty_hud
 1icon_layer_x                            = 102
 1icon_layer_y                            = -15
 
         scope_zoom_factor                = 15
-		scope_texture                    =
 		scope_dynamic_zoom               = on
 		
 [wpn_rpd_custom_march_f_shorty_hud]:wpn_rpd_custom_hud
 item_visual				= anomaly_weapons\wpn_rpd_custom\wpn_rpd_leupold_hud.ogf
 
-        aim_hud_offset_pos               = -0.09542, 0.00097, -0.156275
-        aim_hud_offset_pos_16x9          = -0.09542, 0.00097, -0.156275
-        aim_hud_offset_rot               = 0.010945, 0.005476, 0.002272
-        aim_hud_offset_rot_16x9          = 0.010945, 0.005476, 0.002272
+        aim_hud_offset_pos               = -0.095446, 0.00124, -0.162611
+        aim_hud_offset_pos_16x9          = -0.095446, 0.00124, -0.162611
+        aim_hud_offset_rot               = 0.011482, 0.005672, 0.002272
+        aim_hud_offset_rot_16x9          = 0.011482, 0.005672, 0.002272
 		
 ;-------------------------------------------------------------------------------------------
 [wpn_rpd_custom_monstrum]:wpn_rpd_custom
-
-visual                      = anomaly_weapons\wpn_rpd_custom\wpn_rpd_acog_world.ogf
+hud					                               = wpn_rpd_custom_monstrum_hud
 
 1icon_layer                                        = monstrum
 1icon_layer_x                                      = 104
 1icon_layer_y                                      = -17
 
 scope_status                                       = 1
-scope_texture                                      = 
 scope_zoom_factor                                  = 60
 zoom_rotate_time                                   = 0.25
 
-hud					                               = wpn_rpd_custom_monstrum_hud
-
 [wpn_rpd_custom_monstrum_hud]:wpn_rpd_custom_hud
-
 item_visual				= anomaly_weapons\wpn_rpd_custom\wpn_rpd_monstrum_hud.ogf
 
-        aim_hud_offset_pos               = -0.095619, 0.007286, -0.168243
-        aim_hud_offset_pos_16x9          = -0.095619, 0.007286, -0.168243
-        aim_hud_offset_rot               = 0.01175, 0.00567, 0.002272
-        aim_hud_offset_rot_16x9          = 0.01175, 0.00567, 0.002272
+        aim_hud_offset_pos               = -0.095554, 0.007214, -0.175008
+        aim_hud_offset_pos_16x9          = -0.095554, 0.007214, -0.175008
+        aim_hud_offset_rot               = 0.011161, 0.005465, 0.002272
+        aim_hud_offset_rot_16x9          = 0.011161, 0.005465, 0.002272
 ;-------------------------------------------------------------------------------
 [wpn_rpd_custom_trihawk]:wpn_rpd_custom
+hud					                               = wpn_rpd_custom_trihawk_hud
 
 visual                      = anomaly_weapons\wpn_rpd_custom\wpn_rpd_acog_world.ogf
 
@@ -562,16 +478,13 @@ scope_status                                       = 1
 scope_texture                                      = 
 scope_zoom_factor                                  = 40
 zoom_rotate_time                                   = 0.25
-
-hud					                               = wpn_rpd_custom_trihawk_hud
-
 [wpn_rpd_custom_trihawk_hud]:wpn_rpd_custom_hud
 
 item_visual				= anomaly_weapons\wpn_rpd_custom\wpn_rpd_trihawk_hud.ogf
 
-        aim_hud_offset_pos               = -0.095463, -0.005586, -0.138377
-        aim_hud_offset_pos_16x9          = -0.095463, -0.005586, -0.138377
-        aim_hud_offset_rot               = 0.012363, 0.005644, 0.002272
-        aim_hud_offset_rot_16x9          = 0.012363, 0.005644, 0.002272
+        aim_hud_offset_pos               = -0.09549, -0.005981, -0.132221
+        aim_hud_offset_pos_16x9          = -0.09549, -0.005981, -0.132221
+        aim_hud_offset_rot               = 0.011133, 0.005879, 0.002272
+        aim_hud_offset_rot_16x9          = 0.011133, 0.005879, 0.002272
 ;-------------------------------------------------------------------------------
 
